@@ -1329,7 +1329,7 @@ ul.socialicons {
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
-			line-height: 8.7;
+			line-height: 5.5rem;
 			border: solid 2px #ffffff;
 			border-radius: 100%;
 		}
@@ -1477,7 +1477,7 @@ ul.socialicons {
 				}
 
 			#header .logo {
-				width: 3.75rem; /**/
+				width: 4.75rem; /**/
 				height: 4.75rem; /**/
 				line-height: 4.75rem;
 			}
