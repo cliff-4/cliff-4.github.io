@@ -6,18 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<style>
-			span.a {
-			  display: inline; /* the default for span */
-			  width: 100px;
-			  height: 100px;
-			  /* padding: 5px; */
-			  /* border: 1px solid blue;   */
-			  /* background-color: yellow;  */
-			}
-			</style>
-
 	</head>
 	<body class="is-preload">
 
@@ -50,8 +38,8 @@
 								<li><a href="#about">About</a></li> <!-- about me -->
 								<li><a href="#work">Work</a></li> <!-- about me -->
 								<li><a href="#contact">Contact</a></li> <!-- about me -->
-								<!-- <li><a href="#elements">Elements</a></li> -->
-								<!-- <li><a href="#social">Social</a></li> -->
+								<li><a href="#elements">Elements</a></li>
+								<li><a href="#social">Social</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -77,7 +65,7 @@
 										I have always been fascinated with the world around me, ever trying to explain why things work the way they do. And so far the curiosity has always gotten the best of me. Among these are the things no one has never seen up front, from galactic clusters to binary blackhole mergers. These are the things that fascinate me to most, and makes me want to dedicate my life to the pursuit of the truth of.
 									</p>
 									<p>
-										Another one of my passions is tinkering with computers, and trying to reach the limits of what these rules abiding machines are capable of. I love making small softwares, interest projects[link bad apple], and automating tasks to make my life ever easier. I try to open-source as much of my work as possible, and I always try and look for ways to contribute to interesting projects created by amazing people all around the world.
+										Another one of my passions is tinkering with computers, and trying to reach the limits of what these rules abiding machines are capable of. I love making small softwares, interest projects (<a href="https://www.youtube.com/watch?v=1Onjx9heU5o" target="_blank">like my overnight rendition of Bad Apple on CMD</a>), and automating tasks to make my life ever easier. I try to open-source as much of my work as possible, and I always try and look for ways to contribute to interesting projects created by amazing people all around the world.
 									</p>
 									
 								</div>
@@ -89,33 +77,14 @@
 						<!-- Work -->
 							<article id="work">
 								<div style="overflow: overlay; margin-bottom: 30px;">
-									<!-- <ul class="actions" style=" display: flex;justify-content: space-between;"> -->
-									<!-- <li> -->
-										<h2 class="major" style="position: absolute;">Work</h2>
-									<!-- </li> -->
-									<!-- <li> -->
-										<a href="https://drive.google.com/file/d/1wbN3XfcZqLG2wP1bYb6RByd5pN4OepMY/view?usp=sharing" target="_blank" class="button primary icon solid fa-download" style="float: right;">CV/Resume</a>
-									<!-- </li> -->
-								<!-- </ul> -->
+									<h2 class="major" style="position: absolute;">Work</h2>
+									<a href="https://drive.google.com/file/d/1wbN3XfcZqLG2wP1bYb6RByd5pN4OepMY/view?usp=sharing" target="_blank" class="button primary icon solid fa-download" style="float: right;">CV/Resume</a>
 								</div>
 								
-								<style>
-									.img-container {
-										float: left;
-										width: 50%;
-										/* border: solid green; */
-									}
-									
-									.clearfix::after {
-										content: "";
-										clear: both;
-										display: table;
-									}
-								</style>
 								<div class="clearfix" style="box-sizing: border-box;">
 									<div class="img-container" style="padding-right:5px;">
-									<img src="images/work1.jpeg" alt="Prism spectroscopy of Neon lamp" style="width:100%;">
-								</div>
+										<img src="images/work1.jpeg" alt="Prism spectroscopy of Neon lamp" style="width:100%;">
+									</div>
 									<div class="img-container" style="padding-left:5px;">
 										<img src="images/work2.jpeg" alt="Iodine lamp shining beautifully" style="width:100%;">
 									</div>
@@ -131,24 +100,45 @@
 								<p>
 									Following are some topics I have worked on in the past.
 								</p>
-									<a href="#r1">
-									<div style="border: solid rgb(0, 225, 255);padding: 10px; margin-bottom:10px;">
-										<h3>Stellar Rotational Velocity extraction using Machine Learning.</h3>
-									</div>
+								<div class="grid-container">
+									<a href="#r1" style="border-bottom-color: transparent;">
+										<div class="bluebox">
+											<h3>
+												Stellar Rotational Velocity extraction using Machine Learning
+											</h3>
+										</div>
 									</a>
-									<div style="border: solid rgb(0, 225, 255);padding: 10px; margin-bottom:10px;">
-										<h3>Obtaining optimal beam parameters for a linear particle accelerator using genetic algorithm.</h3>
-									</div>
-									<div style="border: solid rgb(0, 225, 255);padding: 10px; margin-bottom:10px;">
-										<h3>Parallelizing software workload efficiently on computing clusters.</h3>
-									</div>
-									<div style="border: solid rgb(0, 225, 255);padding: 10px; margin-bottom:10px;">
-										<h3>Simulating Rikkitake Model and Visualizing it for different initial conditions.</h3>
-									</div>
-									<div style="border: solid rgb(0, 225, 255);padding: 10px; margin-bottom:10px;">
-										<h3>Visualizing model of the early universe evolution</h3>
-									</div>
+									<a href="#r2" style="border-bottom-color: transparent;">
+										<div class="bluebox">
+											<h3>
+												Obtaining optimal beam parameters for a linear particle accelerator using genetic algorithm
+											</h3>
+										</div>
+									</a>
+									<a href="#r3" style="border-bottom-color: transparent;">
+										<div class="bluebox">
+											<h3>
+												Parallelizing software workload efficiently on computing clusters
+											</h3>
+										</div>
+									</a>
+									<a href="#r4" style="border-bottom-color: transparent;">
+										<div class="bluebox">
+											<h3>
+												Simulating Rikkitake Model and Visualizing it for different initial conditions
+											</h3>
+										</div>
+									</a>
+									<a href="#r5" style="border-bottom-color: transparent;">
+										<div class="bluebox">
+											<h3>
+												Visualizing model of the early universe evolution
+											</h3>
+										</div>
+									</a>
+								</div>
 								<p>
+									<br>
 									If there is any way I can be of help to you, <b><a href="mailto:adityamishra0700@gmail.com" target="_blank">please feel free to reach out to me</a></b>. I am always looking for new and exciting projects to work on!
 								</p>
 								
@@ -170,6 +160,22 @@
 									<p>
 										WiP
 									</p>
+									
+									<a href="#work" class="button" style="float: right">Back</a>
+								</div>
+							</article>
+
+							<article id="test">
+								<div style=" display: flex;justify-content: space-between;">
+									<h2 class="major">R1</h2>
+									<a href="#work" class="button" style="display: inline-flex;">Back</a>
+								</div>
+								<span class="image main" >
+									<img src="images/pic01-.jpg" alt="self image" />
+								</span>
+								<div>
+
+
 									
 									<a href="#work" class="button" style="float: right">Back</a>
 								</div>
